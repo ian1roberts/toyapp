@@ -87,4 +87,4 @@ install: clean ## install the package to the active Python's site-packages
 	python setup.py install
 
 docker-build: ## build the docker image
-	docker build -t toyapp .
+	docker build --no-cache -t toyapp:1.2 .

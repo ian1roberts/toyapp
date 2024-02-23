@@ -16,7 +16,8 @@ def main(quiet: bool, num1: float, num2: float, operation: str):
     """Perform simple arithmetic operations given two numbers and an operator.
 
     If operator is ommited, the default is addition.
-    To prevent * being interpreted as a wildcard, use quotes around the operator.
+    To prevent * being interpreted as a wildcard, use quotes around
+    the operator.
 
     --quiet, -q: Don't print the leading message, just return the result.
     num1: float - The first number

@@ -25,7 +25,8 @@ class TestToyapp(unittest.TestCase):
 
     def test_001_addition_num1_num2_operator(self):
         """Test something."""
-        assert toyapp.math_func(self.num1, self.num2, self.operator) == self.answer
+        assert toyapp.math_func(
+            self.num1, self.num2, self.operator) == self.answer
 
     def test_command_line_interface(self):
         """Test the CLI."""

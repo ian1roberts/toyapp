@@ -104,3 +104,11 @@ ENV/
 # IDE settings
 .vscode/
 .idea/
+.editorconfig
+
+# github
+.github/
+
+# ci/cd
+.travis.yml
+

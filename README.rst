@@ -3,9 +3,11 @@ toyapp
 ======
 
 .. image:: https://img.shields.io/pypi/v/toyapp.svg
-        :target: https://test.pypi.org/pypi/toyapp
+   :target: https://test.pypi.org/pypi/toyapp
+   :alt: PyPI
 
 .. image:: https://img.shields.io/docker/image-size/ian1roberts/toyapp/latest
+   :target: https://hub.docker.com/r/ian1roberts/toyapp
    :alt: Docker Image Size (tag)
 
 
